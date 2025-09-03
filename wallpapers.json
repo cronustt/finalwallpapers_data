@@ -101,3 +101,27 @@
     "liveVideoUrl": "https://example.com/your_live_video.mov"
   }
 ]
+[
+  {
+    "id": "img-001",
+    "title": "Golden Sky",
+    "author": "Your Studio",
+    "category": "nature",
+    "mediaType": "image",
+    "url": "https://cronustt.github.io/finalwallpapers_data/images/test1.jpg",
+    "thumbnailUrl": "https://cronustt.github.io/finalwallpapers_data/thumbs/test1.jpg",
+    "tags": ["sky", "gold", "sunset"],
+    "premium": false
+  },
+  {
+    "id": "img-002",
+    "title": "Ocean Blue",
+    "author": "Your Studio",
+    "category": "nature",
+    "mediaType": "image",
+    "url": "https://cronustt.github.io/finalwallpapers_data/images/test2.jpg",
+    "thumbnailUrl": "https://cronustt.github.io/finalwallpapers_data/thumbs/test2.jpg",
+    "tags": ["ocean", "blue", "calm"],
+    "premium": false
+  }
+]
