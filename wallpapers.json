@@ -1,0 +1,24 @@
+[
+  {
+    "id": "img-001",
+    "title": "日出海面",
+    "author": "Studio FW",
+    "category": "nature",
+    "mediaType": "image",
+    "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=2000",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+    "tags": ["sunrise","sea","nature"]
+  },
+  {
+    "id": "live-001",
+    "title": "Golden Motion",
+    "author": "Studio FW",
+    "category": "others",
+    "mediaType": "livePhoto",
+    "url": "https://your-cdn.example.com/live001/cover_large.jpg",
+    "thumbnailUrl": "https://your-cdn.example.com/live001/cover_thumb.jpg",
+    "stillImageUrl": "https://your-cdn.example.com/live001/cover_large.jpg",
+    "liveVideoUrl": "https://your-cdn.example.com/live001/clip.mov",
+    "tags": ["live","gold"]
+  }
+]
