@@ -99,9 +99,7 @@
     "mediaType": "livePhoto",
     "stillImageUrl": "https://example.com/your_live_cover.jpg",
     "liveVideoUrl": "https://example.com/your_live_video.mov"
-  }
-]
-[
+  },
   {
     "id": "img-001",
     "title": "Golden Sky",
