@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Final</title>
+  <style>
+    :root {
+      --bg: #0b0b0d;
+      --panel: rgba(20,20,24,0.88);
+      --text: #f3f3f1;
+      --muted: #b7b7b2;
+      --line: rgba(255,255,255,0.08);
+      --accent: #f8c84d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+      background: radial-gradient(circle at top, #1a1b20 0%, var(--bg) 42%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .hero, .links {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 32px;
+      backdrop-filter: blur(12px);
+    }
+    .links { margin-top: 20px; }
+    h1, h2 { margin: 0 0 16px; line-height: 1.15; }
+    h1 { font-size: 44px; }
+    p, li { color: var(--muted); font-size: 16px; }
+    .badge {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(248,200,77,0.12);
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li + li { margin-top: 14px; }
+    .link-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .link-row:last-child { border-bottom: 0; padding-bottom: 0; }
+    .label { font-weight: 600; }
+    .hint { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="badge">Final</div>
+      <h1>Calm wallpapers, carefully curated.</h1>
+      <p>Final is a wallpaper app built around a quieter browsing experience. Explore curated atmosphere-driven artwork, save the ones worth keeping, and unlock premium walls with one purchase.</p>
+    </section>
+
+    <section class="links">
+      <h2>Support</h2>
+      <ul>
+        <li>
+          <a class="link-row" href="./support.html">
+            <span class="label">Support</span>
+            <span class="hint">Get help and contact information</span>
+          </a>
+        </li>
+        <li>
+          <a class="link-row" href="./privacy.html">
+            <span class="label">Privacy Policy</span>
+            <span class="hint">How Final handles your information</span>
+          </a>
+        </li>
+        <li>
+          <a class="link-row" href="./terms.html">
+            <span class="label">Terms of Service</span>
+            <span class="hint">Rules for using the app</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
